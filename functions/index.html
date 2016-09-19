@@ -1,0 +1,18 @@
+<script> 
+  
+    window.alert("You are figuring out the production cost of your new book. The marginal cost to produce one book is $3. Your fixed cost is $60.")
+          
+    // x = marginalcost * items + fixedcost
+    //declaration
+    function cost(fixedcost, items, marginalcost)
+    {
+        var fixedcost = 60
+        var items= prompt("How many books would you like to sell?")
+        var marginalcost= 3
+        console.log("If you want to sell " + items + " books, " + "it will cost $" + (fixedcost * items + marginalcost)+ " to produce.");
+    }
+    
+    //call
+    cost();
+    
+    </script> 
