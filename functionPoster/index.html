@@ -1,0 +1,26 @@
+<script> 
+    
+   window.alert("We are calculating the monthly cost of your 60 month car payment.")
+    //x= (((interestRate / twelvemonths) + one) * (principal))/ (months) 
+    
+    //declaration
+    
+    function monthlyPayment(interestRate, twelvemonths, principal, months, one)
+    { 
+        var interestRate= prompt("What interest rate (per month) will you pay? (hint: Take interest rate and divide by 100. 2% will be 0.02)")
+        var principal= prompt("How much money are you lending?") 
+        var twelvemonths= 12
+        var months= 60
+        var one= 1
+        var cost= (((interestRate / twelvemonths) + one) * (principal))/ (months) 
+        var actualCost= Math.round(cost * 100) / 100
+        
+        console.log("If you pay $" + principal + " with a " + interestRate + "% interest rate, you will pay " + "$" +  actualCost + " monthly.")
+                                                                                                               }
+    
+    //call
+    monthlyPayment();
+    
+    
+    
+</script> 
