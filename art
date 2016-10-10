@@ -1,0 +1,96 @@
+<html>
+    <head></head>
+<body>
+    <canvas id= "myCanvas" width="625" height= "525"></canvas> 
+<script>
+    
+    var c = document.getElementById("myCanvas"); 
+    var ctx = c.getContext("2d"); 
+    
+    ctx.beginPath();
+    ctx.fillStyle= "#BEB4AB";
+    ctx.fillRect(0,0,625,525);
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle= "#6A6152";
+    ctx.fillRect(20,20,585,485)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="black"
+    ctx.fillRect(20,20,585,5)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#BEB4AB"
+    ctx.fillRect(85,85,455,355)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="black"
+    ctx.fillRect(85,85,455,3)
+    ctx.fill();  
+    
+    ctx.beginPath();
+    ctx.fillStyle= "#53524E"
+    ctx.fillRect(110,110,405,305)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle= "#5E5E59"
+    ctx.fillRect(140,125,360,250)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#837F74"
+    ctx.fillRect(140,175,360,200)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#968E83"
+    ctx.fillRect(140,195,360,180)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#7C7970"
+    ctx.fillRect(155,215,100,160)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#535552"
+    ctx.fillRect(155,375,315,20)
+    ctx.fill();
+        
+    ctx.beginPath();
+    ctx.fillStyle="#7C7970"
+    ctx.fillRect(245,325,150,50)
+    ctx.fill();
+   
+    ctx.beginPath();
+    ctx.fillStyle="#7C7970"
+    ctx.fillRect(395,325,75,50)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#7C7970"
+    ctx.fillRect(395,215,75,160)
+    ctx.fill();
+    
+    ctx.beginPath();
+    ctx.fillStyle="#555752"
+    ctx.fillRect(200,250,38,75)
+    ctx.fill(); 
+    
+    ctx.beginPath();
+    ctx.fillStyle="#555752"
+    ctx.fillRect(413,250,38,75)
+    ctx.fill();
+    
+    
+    
+    
+       
+</script> 
+    </body>
+    </html> 
