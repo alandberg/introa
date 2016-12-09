@@ -1,0 +1,43 @@
+body {
+	background-color: #FAFBF7;
+}
+
+
+#photoWrapper {
+	width: 50%;
+	margin-left: 25%;
+    margin-right: 25%;
+   
+}
+#thePhoto {
+	width:100%
+}
+#forwardBtn {
+	position: relative;
+	float: right;
+}
+button {
+	background: #FAFBF7;
+	color: black;
+    font-family: 'Playfair Display', serif;
+
+}
+.centerMe{
+	text-align: center;
+    color: #731509; 
+    font-family: 'Playfair Display', serif;
+
+}
+    
+    
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+#chart_div{
+margin-left: 25%
+}
+
+
+
+
